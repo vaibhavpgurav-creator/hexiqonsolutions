@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You | Hexiqon Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* ===== THANK YOU PAGE ===== */
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      background: linear-gradient(
+          rgba(8, 20, 45, 0.9),
+          rgba(8, 20, 45, 0.9)
+        ),
+        url("images/thankyou-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .thankyou-card {
+      background: #ffffff;
+      padding: 60px 50px;
+      border-radius: 20px;
+      text-align: center;
+      max-width: 520px;
+      width: 90%;
+      box-shadow: 0 40px 80px rgba(0,0,0,0.25);
+    }
+
+    .thankyou-icon {
+      width: 72px;
+      height: 72px;
+      background: #f4b000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      font-size: 32px;
+      color: #ffffff;
+    }
+
+    .thankyou-card h1 {
+      font-size: 32px;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+
+    .thankyou-card p {
+      font-size: 16px;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .thankyou-highlight {
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .thankyou-btn {
+      display: inline-block;
+      padding: 14px 26px;
+      background: #f4b000;
+      color: #111827;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: transform 0.3s ease;
+    }
+
+    .thankyou-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 480px) {
+      .thankyou-card {
+        padding: 40px 30px;
+      }
+
+      .thankyou-card h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="thankyou-card">
+
+    <div class="thankyou-icon">
+      ✓
+    </div>
+
+    <h1>Thank You from Team HQ</h1>
+
+    <p>
+      We’ve received your request successfully.<br>
+      <span class="thankyou-highlight">
+        We will contact you in a few moments.
+      </span>
+    </p>
+
+    <a href="index.html" class="thankyou-btn">
+      Back to Home
+    </a>
+
+  </div>
+
+</body>
+</html>
